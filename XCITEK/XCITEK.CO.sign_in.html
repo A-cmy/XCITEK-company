@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+      <title>Xcitek sign in</title>
+      <link rel="shortcut icon" href="C:\Users\admin\Pictures\pictur\XCITEK.png">
+      <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oxygen&display=swap" rel="stylesheet">
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+</head>
+
+<style>
+   body {
+     background-color: black;
+     color: white;
+     background-image: url('bigcity.png');
+          background-size: 100% 100%;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-color: black;
+ }
+
+ #logo {
+            font-family: 'Anton', sans-serif;
+            color: white;
+            font-SIZE: 40PX;
+        }
+
+ .footer {
+    position-bottom: 0px;
+    width: 100%;
+    background-color: white;
+}
+  
+
+  .container {
+           background-color: white;
+           background-opacity: 50%;
+           color: black;
+           border: 5px solid black;
+           width: 50%;
+           height: 400px;
+           alignment: center;
+           margin: 100px;
+           border-radius: 10px;
+     }
+
+   input [type=text] {
+       background-color: black;
+       border: 5px solid black;
+       color: white;
+       font-size: 40px;
+       width: 48%
+       height: 50px;
+   }
+          
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+#sidenav_button {
+    border: 5px solid white;
+    color: white;
+}
+
+#sidenav_button:hover {
+  cursor: grab;
+  background-color: white;
+  color: black;
+}
+
+    
+  
+     
+       
+         
+
+</style>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="XCITEK.CO.welcome.html">Welcome page</a>
+  <a href="XCITEK.CO.sign_up.html">Sign up(alt+u)</a>
+  <a href="XCITEK.CO.sign_in.html">Sign in(alt+i)</a>
+  <a href="#">Terms of Service</a>
+  <a href="#">About</a>
+   <a href="#">Contact Us</a>
+   <a href="#">like us</a>
+   <a href="#">visit us</a>
+   <a href="#">contact us</a>
+   <a href="Tel:7401323622">Call Us</a>
+  
+</div>
+
+
+<HR color="white">
+<div>
+<img type="logo" src="C:\Users\admin\Pictures\pictur\XCITEK.png">
+<logo><span id="logo">XCITEK&trade;</span></logo>
+</div>
+<center>
+<FORM>
+
+    <div class="container">
+        <div class="header">
+            <center><span style="font-size: 40px;">Sign In!</span></center>
+          </div> 
+        <div class="form">
+                <center>
+              <input type="text" id="txt1" name="txt1" placeholder="Username" required style="background-color: black; border: 5px solid black; font-size: 40px; width: 48%; height: 50px; color: white; margin: 5px; border-radius: 10px;"><br>
+               <input type="email" id="email" name="email" placeholder="Email" required style="background-color: black; border: 5px solid black; font-size: 40px; width: 48%; height: 50px; color: white; margin: 4px;" border-radius: 10px;><br>
+                 <input type="password" id="psw" name="psw1" placeholder="password" required style="background-color: black; border: 5px solid black; font-size: 40px; width: 48%; height: 50px; color: white; margin: 4px; border-radius: 10px;" maxlength="6" minlength="6"><br>
+                  
+               <input type="submit" value="Sign In" style="background-color: blue; border: 5px solid white; color: white; font-size: 40px; width: 48%;">
+               </center>
+           </div>
+   </div>
+   <div class="footer">
+   <center><a href="#">Terms of service</a>  <a href="#">About</a>  <a href="facebook">visit us</a></center> 
+</div>
+</FORM>
+</center>
+</body>
+</html>
